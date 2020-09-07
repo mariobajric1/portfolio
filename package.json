@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/mariobajric1/_dealogy.git"
+    "url": "git+https://https://github.com/mariobajric1/portfolio.git"
   },
-  "homepage": "https://github.com/mariobajric1/_dealogy",
+  "homepage": "https://github.com/mariobajric1/portfolio",
   "dependencies": {
     "@sendgrid/mail": "^7.0.0",
     "bcryptjs": "^2.4.3",
