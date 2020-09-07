@@ -26,7 +26,7 @@ const ProjectsPage = () => {
           description="React-App With Airbnb Styled Elements"
         />
         <ProjectCard
-          src="https://cdn.vox-cdn.com/thumbor/Ous3VQj1sn4tvb3H13rIu8eGoZs=/0x0:2012x1341/1400x788/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+          src="https://pyxis.nymag.com/v1/imgs/110/4b3/605e7a8354f39b484d8a68a4b26678b026-tiktok.2x.rsocial.w600.jpg"
           title="Tik Tok clone"
           description="React-App powered by Google's Search API"
         />
