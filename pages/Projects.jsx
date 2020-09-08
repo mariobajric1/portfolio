@@ -16,10 +16,12 @@ const ProjectsPage = () => {
       <h2 className={styles.pageTitle}>Projects</h2>
       <div className={styles.projectCards}>
         <ProjectCard
+          href="https://clone-5df57.web.app/"
           src="https://cdn.vox-cdn.com/thumbor/Ous3VQj1sn4tvb3H13rIu8eGoZs=/0x0:2012x1341/1400x788/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
           title="Google Clone"
           description="React-App powered by Google's Search API"
         />
+
         <ProjectCard
           src="https://res.cloudinary.com/simple-things/image/upload/f_auto,q_auto/v1585770120/airbnb_fiw4mc_nnjmpj-1.png"
           title="Airbnb Clone"
