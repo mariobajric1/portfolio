@@ -1,15 +1,28 @@
 import React from "react";
 import styles from "../styles/layout.module.css";
+import { Button } from "@material-ui/core";
 
-function ProjectCard({ href, src, title, description, price }) {
+function ProjectCard({ href, src, title, description, gitLink }) {
   return (
-    <a href={href}>
+    <a className={styles.projectCard__a} href={href}>
       <div className={styles.projectCard}>
-        <img src={src} alt="" />
+        <a href={href}>
+          <img className={styles.projectCard__img} src={src} alt="" />
+        </a>
         <div className={styles.projectCard__info}>
-          <h2>{title}</h2>
-          <h4>{description}</h4>
-          <h3>{price}</h3>
+          <a className={styles.projectCard__a} href={href}>
+            <h2 className={styles.projectCard__info__h2}>{title}</h2>
+          </a>
+
+          <h4 className={styles.projectCard__info__h4}>{description}</h4>
+          <a className={styles.projectCard__a} href={gitLink}>
+            <Button
+              variant="outlined"
+              className={styles.projectCard__gitLinkButton}
+            >
+              {gitLink}
+            </Button>
+          </a>
         </div>
       </div>
     </a>
