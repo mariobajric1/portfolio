@@ -8,9 +8,6 @@ const IndexPage = () => (
           text-align: center;
           color: #888;
         }
-        h3 {
-          color: #555;
-        }
       `}
     </style>
     <div>
