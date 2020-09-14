@@ -37,9 +37,11 @@ const ProjectsPage = () => {
         </div>
         <div className={styles.projectCards}>
           <ProjectCard
+            href="https://amzn-65993.web.app/"
             src="https://morningtick.com/wp-content/uploads/2020/03/Amazon-will-allow-voice-searches-from-now-on.jpg"
             title="Amazon Clone"
             description="React-App powered by Google's Search API"
+            gitLink="https://github.com/mariobajric1/amazon-clone"
           />
           <ProjectCard
             src="https://play-lh.googleusercontent.com/aZrXAunkovhf0630Ykz1A7h2rzFX_dErd6fRiB7fNKU_DkNtetTquEra1bjc3sR2kLs"
