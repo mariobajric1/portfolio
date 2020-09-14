@@ -25,25 +25,15 @@ const ProjectsPage = () => {
           />
 
           <ProjectCard
-            src="https://res.cloudinary.com/simple-things/image/upload/f_auto,q_auto/v1585770120/airbnb_fiw4mc_nnjmpj-1.png"
-            title="Airbnb Clone"
-            description="React-App With Airbnb Styled Elements"
-          />
-          <ProjectCard
-            src="https://pyxis.nymag.com/v1/imgs/110/4b3/605e7a8354f39b484d8a68a4b26678b026-tiktok.2x.rsocial.w600.jpg"
-            title="Tik Tok clone"
-            description="React-App powered by Google's Search API"
-          />
-        </div>
-        <div className={styles.projectCards}>
-          <ProjectCard
             href="https://amzn-65993.web.app/"
             src="https://morningtick.com/wp-content/uploads/2020/03/Amazon-will-allow-voice-searches-from-now-on.jpg"
             title="Amazon Clone"
             description="React-App powered by Google's Search API"
             gitLink="https://github.com/mariobajric1/amazon-clone"
           />
-          <ProjectCard
+        </div>
+        <div className={styles.projectCards}>
+          {/* <ProjectCard
             src="https://play-lh.googleusercontent.com/aZrXAunkovhf0630Ykz1A7h2rzFX_dErd6fRiB7fNKU_DkNtetTquEra1bjc3sR2kLs"
             title="Whats App Clone"
             description="React-App powered by Google's Search API"
@@ -52,7 +42,17 @@ const ProjectsPage = () => {
             src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-2019-present.jpg"
             title="Facebook Clone"
             description="React-App powered by Google's Search API"
+          /> */}
+          {/* <ProjectCard
+            src="https://res.cloudinary.com/simple-things/image/upload/f_auto,q_auto/v1585770120/airbnb_fiw4mc_nnjmpj-1.png"
+            title="Airbnb Clone"
+            description="React-App With Airbnb Styled Elements"
           />
+          <ProjectCard
+            src="https://pyxis.nymag.com/v1/imgs/110/4b3/605e7a8354f39b484d8a68a4b26678b026-tiktok.2x.rsocial.w600.jpg"
+            title="Tik Tok clone"
+            description="React-App powered by Google's Search API"
+          /> */}
         </div>
       </div>
     </>
