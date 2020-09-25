@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../styles/layout.module.css";
 
 const IndexPage = () => (
   <>
@@ -12,6 +13,9 @@ const IndexPage = () => (
     </style>
     <div>
       <p>Have a wonderful day.</p>
+
+      {/*image components */}
+      {/* <img className={styles.index__portrait} src="/me.png" alt="" /> */}
     </div>
     <div>{/* Weekly Post Component */}</div>
   </>

@@ -6,6 +6,7 @@
     sans-serif;
   background-color: White;
 }
+
 .main {
   padding: 1rem;
   max-width: 1240px;
@@ -137,4 +138,9 @@
   background-color: gray !important;
   color: white !important;
   transform: scale(1.02) !important;
+}
+
+.index__portrait {
+  /* height: 100px; */
+  border-radius: 22px;
 }

@@ -31,7 +31,14 @@ const ProjectsPage = () => {
             description="React-App powered by Google's Search API"
             gitLink="https://github.com/mariobajric1/amazon-clone"
           />
+          <ProjectCard
+            src="/benchmark.jpg"
+            title="Benchmark West Apartments"
+            description="Commercial Real-Estate Website and Benchmark West Mangement  App"
+            inProg={true}
+          />
         </div>
+
         <div className={styles.projectCards}>
           {/* <ProjectCard
             src="https://play-lh.googleusercontent.com/aZrXAunkovhf0630Ykz1A7h2rzFX_dErd6fRiB7fNKU_DkNtetTquEra1bjc3sR2kLs"

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/layout.module.css";
 import { Button } from "@material-ui/core";
 
-function ProjectCard({ href, src, title, description, gitLink }) {
+function ProjectCard({ href, src, title, description, gitLink, inProg }) {
   return (
     <a className={styles.projectCard__a} href={href}>
       <div className={styles.projectCard}>
@@ -22,6 +22,7 @@ function ProjectCard({ href, src, title, description, gitLink }) {
             >
               {gitLink}
             </Button>
+            {inProg ? <h4>In Progress</h4> : <h4>Completed</h4>}
           </a>
         </div>
       </div>
