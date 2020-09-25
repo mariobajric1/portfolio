@@ -40,11 +40,12 @@ const ProjectsPage = () => {
         </div>
 
         <div className={styles.projectCards}>
-          {/* <ProjectCard
+          <ProjectCard
             src="https://play-lh.googleusercontent.com/aZrXAunkovhf0630Ykz1A7h2rzFX_dErd6fRiB7fNKU_DkNtetTquEra1bjc3sR2kLs"
             title="Whats App Clone"
             description="React-App powered by Google's Search API"
           />
+          {/*
           <ProjectCard
             src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-2019-present.jpg"
             title="Facebook Clone"
