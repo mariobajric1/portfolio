@@ -44,13 +44,15 @@ const ProjectsPage = () => {
             src="https://play-lh.googleusercontent.com/aZrXAunkovhf0630Ykz1A7h2rzFX_dErd6fRiB7fNKU_DkNtetTquEra1bjc3sR2kLs"
             title="Whats App Clone"
             description="React-App powered by Google's Search API"
+            inProg={true}
           />
-          {/*
+
           <ProjectCard
-            src="https://logos-world.net/wp-content/uploads/2020/04/Facebook-Logo-2019-present.jpg"
-            title="Facebook Clone"
-            description="React-App powered by Google's Search API"
-          /> */}
+            src="/eth.jpg"
+            title="Scafforld-Eth"
+            description="Ethereum Web Wallet"
+            inProg={true}
+          />
           {/* <ProjectCard
             src="https://res.cloudinary.com/simple-things/image/upload/f_auto,q_auto/v1585770120/airbnb_fiw4mc_nnjmpj-1.png"
             title="Airbnb Clone"
