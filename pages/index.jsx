@@ -8,6 +8,7 @@ const IndexPage = () => (
         p {
           text-align: center;
           color: #888;
+          font-weight: 700 !important;
         }
       `}
     </style>

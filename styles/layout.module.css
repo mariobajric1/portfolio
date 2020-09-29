@@ -56,11 +56,6 @@
   color: #0366d6;
 }
 
-.pageTitle {
-  color: gray;
-  text-align: center;
-}
-
 .projects__container {
   justify-content: center;
   margin-left: auto;
@@ -143,4 +138,27 @@
 .index__portrait {
   /* height: 100px; */
   border-radius: 22px;
+}
+
+.businessCard {
+  margin: auto;
+  border: 3px solid gray;
+  max-width: 60%;
+  display: flex;
+  margin-top: 20px;
+}
+.businessCard_img {
+  max-width: 50%;
+}
+
+.contactInfo {
+  float: right;
+  margin: auto;
+  text-align: right;
+  max-width: 50%;
+}
+
+.pageTitle {
+  color: gray;
+  font-weight: 700 !important;
 }
