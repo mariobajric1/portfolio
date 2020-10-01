@@ -41,10 +41,11 @@ const ProjectsPage = () => {
 
         <div className={styles.projectCards}>
           <ProjectCard
+            href="https://whatsapp-clone-da4c9.web.app/"
             src="/chat.jpg"
             title="Chat App"
-            description="Chat App powered by a Mongo Database."
-            inProg={true}
+            description="Chat App powered by an Express Backend and a Mongo Database. Hosted By Firebase"
+            gitLink="https://github.com/mariobajric1/chat-app"
           />
 
           <ProjectCard
