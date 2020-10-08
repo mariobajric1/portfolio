@@ -11,6 +11,11 @@ function BusinessCard({ src }) {
         <a href="https://github.com/mariobajric1">
           <h3 className={styles.pageTitle}>https://github.com/mariobajric1</h3>
         </a>
+        <a href="https://thefloridachannel.org/videos/12-13-19-florida-blockchain-task-force/">
+          <h3 className={styles.pageTitle}>
+            Talking Bitcoin Education: https://thefloridachannel.org @ 2:12:29
+          </h3>
+        </a>
       </div>
     </div>
   );
