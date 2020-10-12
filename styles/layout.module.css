@@ -141,10 +141,10 @@
 }
 
 .businessCard {
+  display: flex;
   margin: auto;
   border: 3px solid gray;
   max-width: 60%;
-  display: flex;
   margin-top: 100px;
 }
 .businessCard_img {
@@ -153,6 +153,8 @@
 }
 
 .contactInfo {
+  display: flex;
+  flex-direction: column;
   float: right;
   margin: auto;
   text-align: right;
@@ -164,4 +166,14 @@
   font-weight: 700 !important;
   padding-top: 10px;
   float: right;
+}
+
+.contact__container {
+  display: flex;
+  padding: 10px;
+}
+.yt__video {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 310px;
 }
