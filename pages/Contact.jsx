@@ -5,6 +5,7 @@ import styles from '../styles/layout.module.css';
 
 const ContactPage = () => (
   <>
+    <div className={styles.contact__container}>
       <BusinessCard src="./me.png" />
       <div className={styles.yt__video}>
         <ReactPlayer
@@ -12,6 +13,7 @@ const ContactPage = () => (
           url="https://www.youtube.com/watch?v=RGY8XUq7oBE&t=411s"
         />
       </div>
+    </div>
   </>
 );
 

@@ -22,7 +22,7 @@ function ProjectCard({ href, src, title, description, gitLink, inProg }) {
             >
               {gitLink}
             </Button>
-            {inProg ? <h4>In Progress</h4> : <h4>Completed</h4>}
+            {inProg ? <h4>In Progress</h4> : <h4>Check it out!</h4>}
           </a>
         </div>
       </div>

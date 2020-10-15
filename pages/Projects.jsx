@@ -13,7 +13,6 @@ const ProjectsPage = () => {
       <Head>
         <title>Projects</title>
       </Head>
-      <h2 className={styles.pageTitle}>Projects</h2>
       <div className={styles.projects__container}>
         <div className={styles.projectCards}>
           <ProjectCard
@@ -50,20 +49,17 @@ const ProjectsPage = () => {
 
           <ProjectCard
             src="/eth.jpg"
-            title="Scafforld-Eth"
-            description="React and Solidity Ethereum Web Wallet with Recovery."
+            title="Scaffold-Eth Build"
+            description="React and Solidity Ethereum Web Wallet & Recovery."
             inProg={true}
           />
-          {/* <ProjectCard
-            src="https://res.cloudinary.com/simple-things/image/upload/f_auto,q_auto/v1585770120/airbnb_fiw4mc_nnjmpj-1.png"
-            title="Airbnb Clone"
-            description="React-App With Airbnb Styled Elements"
-          />
-          <ProjectCard
-            src="https://pyxis.nymag.com/v1/imgs/110/4b3/605e7a8354f39b484d8a68a4b26678b026-tiktok.2x.rsocial.w600.jpg"
-            title="Tik Tok clone"
-            description="React-App powered by Google's Search API"
-          /> */}
+           <ProjectCard
+            href="https://userauth-two.vercel.app/"
+            src="/auth.png"
+            title="User Auth Template"
+            description="React-App with Login Authorization and Post Feed. Express, MongoDB, password encryption with Bcrypt, and an email verification with SendGrid."
+            gitLink="https://github.com/mariobajric1/userAuth"
+            />
         </div>
       </div>
     </>
